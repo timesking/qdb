@@ -16,7 +16,7 @@ import (
 	redis "github.com/reborndb/go/redis/resp"
 	"github.com/reborndb/go/ring"
 	"github.com/reborndb/go/sync2"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 type Server struct {

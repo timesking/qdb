@@ -22,8 +22,8 @@ import (
 	"github.com/reborndb/go/bytesize"
 	"github.com/reborndb/go/pools"
 	redis "github.com/reborndb/go/redis/resp"
-	"github.com/reborndb/qdb/pkg/engine/rocksdb"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/engine/rocksdb"
+	"github.com/timesking/qdb/pkg/store"
 	. "gopkg.in/check.v1"
 )
 

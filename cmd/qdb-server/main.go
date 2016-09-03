@@ -18,12 +18,12 @@ import (
 	"github.com/docopt/docopt-go"
 	"github.com/juju/errors"
 	"github.com/ngaut/log"
-	"github.com/reborndb/qdb/pkg/engine"
-	"github.com/reborndb/qdb/pkg/engine/goleveldb"
-	"github.com/reborndb/qdb/pkg/engine/leveldb"
-	"github.com/reborndb/qdb/pkg/engine/rocksdb"
-	"github.com/reborndb/qdb/pkg/service"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/engine"
+	"github.com/timesking/qdb/pkg/engine/goleveldb"
+	"github.com/timesking/qdb/pkg/engine/leveldb"
+	"github.com/timesking/qdb/pkg/engine/rocksdb"
+	"github.com/timesking/qdb/pkg/service"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 var args struct {
@@ -85,15 +85,15 @@ Options:
     -n N, --ncpu=N                    set runtime.GOMAXPROCS to N
     -c CONF, --config=CONF            specify the config file
     --repair                          repair database
-    --dbtype=TYPE                     dtabase type, like rocksdb, leveldb, goleveldb	
-    --dbpath=PATH                     database store path						
-    --addr=ADDR                       service listening address	
+    --dbtype=TYPE                     dtabase type, like rocksdb, leveldb, goleveldb
+    --dbpath=PATH                     database store path
+    --addr=ADDR                       service listening address
     --auth=AUTH                       service auth
-    --pidfile=FILE                    service pid file 
+    --pidfile=FILE                    service pid file
     --conn_timeout=N                  connection timeout after N seconds
     --dump_path=PATH                  path saving snapshot rdb file
     --sync_file_path=PATH             path saving replication syncing data
-    --sync_file_size=SIZE             maximum file(bytes) size for replication syncing 
+    --sync_file_size=SIZE             maximum file(bytes) size for replication syncing
     --sync_buff_size=SIZE             maximum memory buffer size(bytes) for replication syncing
     --repl_backlog_file_path=PATH     path saving replication backlog data, if empty, use memory instead
     --repl_backlog_size=SIZE          maximum backlog size(bytes)

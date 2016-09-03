@@ -7,7 +7,7 @@ package leveldb
 
 import (
 	"github.com/juju/errors"
-	"github.com/reborndb/qdb/extern/levigo"
+	"github.com/timesking/qdb/extern/levigo"
 )
 
 type Iterator struct {

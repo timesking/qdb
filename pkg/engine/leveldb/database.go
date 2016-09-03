@@ -11,8 +11,8 @@ import (
 	"os"
 
 	"github.com/juju/errors"
-	"github.com/reborndb/qdb/extern/levigo"
-	"github.com/reborndb/qdb/pkg/engine"
+	"github.com/timesking/qdb/extern/levigo"
+	"github.com/timesking/qdb/pkg/engine"
 )
 
 type LevelDB struct {

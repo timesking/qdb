@@ -21,7 +21,7 @@ import (
 	"github.com/reborndb/go/io/pipe"
 	"github.com/reborndb/go/redis/rdb"
 	redis "github.com/reborndb/go/redis/resp"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 // BGSAVE

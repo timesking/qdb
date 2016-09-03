@@ -8,7 +8,7 @@ A fast, high availability, fully Redis compatible store.
 
 See [commands](https://github.com/reborndb/qdb/wiki/Redis-Commands-Support) for more.
 
-## Install 
+## Install
 
 ### Install godep
 
@@ -24,7 +24,7 @@ We will use godep to build our application, the godep will be installed in `$GOP
 + Install Rocksdb and LevelDB
 ```
    cd extern
-   ./engine_install.sh 
+   ./engine_install.sh
 ```
 
     engine_install.sh will check whether rocksdb/leveldb is installed first, if not, it will install rocksdb/leveldb in standard path `/usr/local/lib`.
@@ -74,3 +74,15 @@ LRANGE_600 (first 600 elements): 319.44 requests per second
 ## FAQ
 
 See [FAQ](https://github.com/reborndb/qdb/wiki/FAQ) for more.
+
+## Mac OS X build
+```
+brew install snappy leveldb rocksdb
+cd extern
+./engine_install_macosx.sh
+./golib_install.sh
+cd ..
+go get 
+make
+
+```

@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/reborndb/qdb/pkg/engine"
-	"github.com/reborndb/qdb/pkg/engine/goleveldb"
-	"github.com/reborndb/qdb/pkg/engine/leveldb"
-	"github.com/reborndb/qdb/pkg/engine/rocksdb"
+	. "github.com/timesking/qdb/pkg/engine"
+	"github.com/timesking/qdb/pkg/engine/goleveldb"
+	"github.com/timesking/qdb/pkg/engine/leveldb"
+	"github.com/timesking/qdb/pkg/engine/rocksdb"
 	. "gopkg.in/check.v1"
 )
 

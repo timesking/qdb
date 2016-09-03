@@ -4,7 +4,7 @@
 package service
 
 import (
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 	. "gopkg.in/check.v1"
 )
 

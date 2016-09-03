@@ -17,7 +17,7 @@ import (
 	"github.com/ngaut/log"
 	"github.com/reborndb/go/atomic2"
 	redis "github.com/reborndb/go/redis/resp"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 type conn struct {

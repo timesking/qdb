@@ -6,7 +6,7 @@ package service
 import (
 	"github.com/reborndb/go/errors2"
 	redis "github.com/reborndb/go/redis/resp"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 // GET key

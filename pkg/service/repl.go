@@ -17,7 +17,7 @@ import (
 	"github.com/reborndb/go/bytesize"
 	redis "github.com/reborndb/go/redis/resp"
 	"github.com/reborndb/go/ring"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 func (h *Handler) initReplication(bl *store.Store) error {

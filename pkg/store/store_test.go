@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/ngaut/log"
-	"github.com/reborndb/qdb/pkg/engine/rocksdb"
+	"github.com/timesking/qdb/pkg/engine/rocksdb"
 	. "gopkg.in/check.v1"
 )
 

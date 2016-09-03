@@ -13,7 +13,7 @@ import (
 
 	"github.com/juju/errors"
 	redis "github.com/reborndb/go/redis/resp"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 )
 
 // SELECT db

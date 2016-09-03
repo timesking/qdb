@@ -7,7 +7,7 @@ package rocksdb
 
 import (
 	"github.com/juju/errors"
-	"github.com/reborndb/qdb/extern/gorocks"
+	"github.com/timesking/qdb/extern/gorocks"
 )
 
 type Iterator struct {

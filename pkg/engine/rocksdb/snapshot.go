@@ -7,8 +7,8 @@ package rocksdb
 
 import (
 	"github.com/juju/errors"
-	"github.com/reborndb/qdb/extern/gorocks"
-	"github.com/reborndb/qdb/pkg/engine"
+	"github.com/timesking/qdb/extern/gorocks"
+	"github.com/timesking/qdb/pkg/engine"
 )
 
 type Snapshot struct {

@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"github.com/reborndb/go/redis/rdb"
-	"github.com/reborndb/qdb/pkg/store"
+	"github.com/timesking/qdb/pkg/store"
 	. "gopkg.in/check.v1"
 )
 
